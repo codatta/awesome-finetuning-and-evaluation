@@ -5,8 +5,8 @@ Thanks for improving **awesome‑finetuning‑evaluation**. Follow the steps bel
 ---
 ## 1 · Set up
 ```bash
-git clone https://github.com/codatta/awesome-finetuning-evaluation.git
-cd awesome-finetuning-evaluation
+git clone https://github.com/codatta/awesome-finetuning-and-evaluation.git
+cd awesome-finetuning-and-evaluation
 poetry install          # or pip install -r requirements.txt
 pre-commit install      # hook for linting
 ```

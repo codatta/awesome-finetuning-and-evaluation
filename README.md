@@ -1,4 +1,4 @@
-# awesome‑finetuning‑evaluation
+# 🚀 Awesome Finetuing And Evaluation
 
 **Purpose** — give engineers and product teams a single place to turn a general‑purpose foundation model into a production‑ready vertical solution through systematic evaluation and parameter‑efficient fine‑tuning.
 
@@ -80,8 +80,8 @@ Make a PR any time you add a file: new resource doc **plus** an index update in 
 
 ```bash
 # clone and explore
-git clone https://github.com/codatta/awesome-finetuning-evaluation.git
-cd awesome-finetuning-evaluation
+git clone https://github.com/codatta/awesome-finetuning-and-evaluation.git
+cd awesome-finetuning-and-evaluation
 
 # open the zero‑to‑LoRA demo
 jupyter lab notebooks/00_quickstart.ipynb
