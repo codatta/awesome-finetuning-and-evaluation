@@ -44,7 +44,7 @@ Have a paper, tutorial, or project on fine‑tuning or evaluation? Add its file 
 |------|------|----------|-------|
 | **Evidently** | OSS project | <https://github.com/evidentlyai/evidently> | Open‑source data / model quality monitoring & LLM evaluation dashboards |
 | *ChatEval demo* | Jupyter .ipynb | [`notebooks/evaluation/01_evidently_llm_eval.ipynb`](notebooks/evaluation/01_evidently_llm_eval.ipynb) | Build an interactive eval dashboard in 5 mins |
-| *A Survey on Evaluation of Large Language Models* | Paper / PDF | [`resources/papers/A_Survey_on_Evaluation_of_LLMs.pdf`](resources/papers/A_Survey_on_Evaluation_of_LLMs.pdf) | Benchmarking human‑in‑the‑loop evaluation pipelines |
+| *A Survey on Evaluation of Large Language Models* | Paper / PDF | [`resources/papers/A_Survey_on_Evaluation_of_LLMs.pdf`](resources/papers/A_Survey_on_Evaluation_of_LLMs.pdf) | A comprehensive survey on LLM evaluation and pipelines |
 | *Finance‑QA benchmark* | Dataset | <https://huggingface.co/datasets/AIR-Bench/qa_finance_en> | 27.9K Q&A pairs for financial reasoning tests |
 
 ---
