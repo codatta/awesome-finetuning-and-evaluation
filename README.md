@@ -3,7 +3,7 @@
 **Purpose** — give engineers and product teams a single place to turn a general‑purpose foundation model into a production‑ready vertical solution through systematic evaluation and parameter‑efficient fine‑tuning.
 
 ## 🚀 Quick links
-[Papers](resources/papers/) · [Tutorials](resources/tutorials/) · [Projects](resources/projects/) · [Benchmarks](resources/benchmarks/) · [Datasets](resources/datasets/) 
+[Papers](resources/papers/) · [Tutorials](resources/tutorials/) · [Projects](resources/projects/) · [Benchmarks](resources/benchmarks/) · [Datasets](resources/datasets/)
 · [Models](resources/models/)
 ---
 
@@ -21,8 +21,8 @@ Foundation models are great starting points, but real products demand **vertical
 
 ## Who is this for?
 
-* **Engineers** — grab runnable notebooks and scripts.  
-* **Product managers** — skim curated links to gauge scope and risk.  
+* **Engineers** — grab runnable notebooks and scripts.
+* **Product managers** — skim curated links to gauge scope and risk.
 * **Builders** — fork code that already works on real data.
 
 Have a paper, tutorial, or project on fine‑tuning or evaluation? Add its file to the correct `resources/` folder **and** insert a row in the Fine‑tuning or Evaluation table, then open a PR so everyone can find it.
@@ -43,9 +43,9 @@ Have a paper, tutorial, or project on fine‑tuning or evaluation? Add its file 
 | Name | Kind | Location | Brief |
 |------|------|----------|-------|
 | **Evidently** | OSS project | <https://github.com/evidentlyai/evidently> | Open‑source data / model quality monitoring & LLM evaluation dashboards |
-| *ChatEval demo (sample placeholder)* | Jupyter .ipynb | [`notebooks/02_evidently_llm_eval.ipynb`](notebooks/02_evidently_llm_eval.ipynb) | Build an interactive eval dashboard in 10 mins |
-| *OpenEval (sample placeholder)* | Paper / PDF | [`resources/papers/2025-lee-open-eval.pdf`](resources/papers/2025-lee-open-eval.pdf) | Benchmarking human‑in‑the‑loop evaluation pipelines |
-| *Finance‑QA benchmark (sample placeholder)* | Dataset | <https://huggingface.co/datasets/finance_qa> | 30 K Q&A pairs for financial reasoning tests |
+| *ChatEval demo* | Jupyter .ipynb | [`notebooks/evaluation/01_evidently_llm_eval.ipynb`](notebooks/evaluation/01_evidently_llm_eval.ipynb) | Build an interactive eval dashboard in 5 mins |
+| *A Survey on Evaluation of Large Language Models* | Paper / PDF | [`resources/papers/A_Survey_on_Evaluation_of_LLMs.pdf`](resources/papers/A_Survey_on_Evaluation_of_LLMs.pdf) | Benchmarking human‑in‑the‑loop evaluation pipelines |
+| *Finance‑QA benchmark* | Dataset | <https://huggingface.co/datasets/AIR-Bench/qa_finance_en> | 27.9K Q&A pairs for financial reasoning tests |
 
 ---
 
