@@ -1,0 +1,5 @@
+# checkpoints / local data
+models/
+data/
+*.ckpt
+*.pt
