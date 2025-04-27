@@ -34,9 +34,9 @@ Have a paper, tutorial, or project on fine‑tuning or evaluation? Add its file 
 | Name | Kind | Location | Brief |
 |------|------|----------|-------|
 | **LLaMA‑Factory** | OSS project | <https://github.com/hiyouga/LLaMA-Factory> | End‑to‑end PEFT/LoRA/QLoRA fine‑tuning toolkit for Llama‑family models |
-| *Example notebook (sample placeholder)* | Jupyter .ipynb | [`notebooks/01_lora_quickstart.ipynb`](notebooks/01_lora_quickstart.ipynb) | Minimal walk‑through: prepare data, run LoRA, eval |
-| *Domain recipe (sample placeholder)* | Paper / PDF | [`resources/papers/2025-smith-clinical-lora.pdf`](resources/papers/2025-smith-clinical-lora.pdf) | Case study: adapting Llama to clinical text |
-| *Mini‑Wiki dataset (sample placeholder)* | Dataset | <https://huggingface.co/datasets/miniwiki> | 100 K articles for fast experimentation |
+| *SDXL Lora notebook* | Jupyter .ipynb | [`notebooks/finetune/01_azuki_lora.ipynb`](notebooks/01_lora_quickstart.ipynb) | Minimal walk‑through: prepare data, run LoRA, show result |
+| *LoRA* | Paper / PDF | [`resources/papers/LoRA.pdf`](resources/papers/LoRA.pdf) | LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS |
+| *Azuki dataset (sample placeholder)* | Dataset | <https://huggingface.co/datasets/Chris1/azuki> | 100 K images of Azuki NFT |
 
 ## Evaluation resources
 
