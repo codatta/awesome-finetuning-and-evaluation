@@ -37,6 +37,7 @@ Have a paper, tutorial, or project on fine‑tuning or evaluation? Add its file 
 | *SDXL Lora notebook* | Jupyter .ipynb | [`notebooks/finetune/01_azuki_lora.ipynb`](notebooks/01_lora_quickstart.ipynb) | Minimal walk‑through: prepare data, run LoRA, show result |
 | *LoRA* | Paper / PDF | [`resources/papers/LoRA.pdf`](resources/papers/LoRA.pdf) | LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS |
 | *Azuki dataset (sample placeholder)* | Dataset | <https://huggingface.co/datasets/Chris1/azuki> | 100 K images of Azuki NFT |
+| Let's fine-tune Qwen 3 (100% locally) | Tutorial | https://x.com/_avichawla/status/1918917563825938645 by [@_avichawla (X)](https://x.com/_avichawla) | X thread (TODO: convert to notebook) |
 
 ## Evaluation resources
 
