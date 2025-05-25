@@ -41,14 +41,14 @@ Have a paper, tutorial, or project on fine‑tuning or evaluation? Add its file 
 
 ## Evaluation resources
 
-| Name | Kind | Location | Brief |
-|------|------|----------|-------|
-| **Evidently** | OSS project | <https://github.com/evidentlyai/evidently> | Open‑source data / model quality monitoring & LLM evaluation dashboards |
-| **pydantic-eval** | OSS project | https://ai.pydantic.dev/evals/ | super light-weight toolset to buids evaluation with LLM for AI |
-| **instructor(.llm_validator)** | OSS project | https://github.com/567-labs/instructor ([blog](https://python.useinstructor.com/blog/2025/05/20/understanding-semantic-validation-with-structured-outputs/)) | Beyond rule-based validation (e.g. `a filed has correct datatype 'str'`), semantic validation uses an LLM to interpret and evaluate text against natural language criteria ([blog](https://python.useinstructor.com/blog/2025/05/20/understanding-semantic-validation-with-structured-outputs/#beyond-rule-based-validation)).|
-| *ChatEval demo* | Jupyter .ipynb | [`notebooks/evaluation/01_evidently_llm_eval.ipynb`](notebooks/evaluation/01_evidently_llm_eval.ipynb) | Build an interactive eval dashboard in 5 mins |
-| *A Survey on Evaluation of Large Language Models* | Paper / PDF | [`resources/papers/A_Survey_on_Evaluation_of_LLMs.pdf`](resources/papers/A_Survey_on_Evaluation_of_LLMs.pdf) | A comprehensive survey on LLM evaluation and pipelines |
-| *Finance‑QA benchmark* | Dataset | <https://huggingface.co/datasets/AIR-Bench/qa_finance_en> | 27.9K Q&A pairs for financial reasoning tests |
+| Name | Kind | Brief |
+|------|------|-------|
+| **Evidently** | OSS project ([Github](https://github.com/evidentlyai/evidently)) | Open‑source data / model quality monitoring & LLM evaluation dashboards |
+| **pydantic-eval** | OSS project ([Github](https://ai.pydantic.dev/evals/)) | super light-weight toolset to buids evaluation with LLM for AI |
+| **instructor(.llm_validator)** | OSS project ([gitbub](https://github.com/567-labs/instructor)) | Beyond rule-based validation (e.g. `a filed has correct datatype 'str'`), semantic validation uses an LLM to interpret and evaluate text against natural language criteria ([blog](https://python.useinstructor.com/blog/2025/05/20/understanding-semantic-validation-with-structured-outputs/#beyond-rule-based-validation)).|
+| *ChatEval demo* | [Jupyter.ipynb](notebooks/evaluation/01_evidently_llm_eval.ipynb) | Build an interactive eval dashboard in 5 mins |
+| *A Survey on Evaluation of Large Language Models* | [Paper/PDF](resources/papers/A_Survey_on_Evaluation_of_LLMs.pdf) | A comprehensive survey on LLM evaluation and pipelines |
+| *Finance‑QA benchmark* | [Dataset](https://huggingface.co/datasets/AIR-Bench/qa_finance_en) | 27.9K Q&A pairs for financial reasoning tests |
 
 ---
 
