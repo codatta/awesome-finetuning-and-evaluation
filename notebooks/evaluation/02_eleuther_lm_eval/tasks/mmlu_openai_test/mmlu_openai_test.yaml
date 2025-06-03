@@ -1,0 +1,37 @@
+dataset_name: abstract_algebra
+dataset_path: cais/mmlu
+doc_to_target: '{{ [''A'', ''B'', ''C'', ''D''][answer] }}'
+doc_to_text: 'Question: {{question}}
+
+
+  Choices:
+
+  A. {{choices[0]}}
+
+  B. {{choices[1]}}
+
+  C. {{choices[2]}}
+
+  D. {{choices[3]}}
+
+
+  Answer:'
+generation_kwargs:
+  max_gen_toks: 1
+  until:
+  - '
+
+    '
+  - .
+  - '!'
+  - '?'
+metadata:
+  description: Custom MMLU task for OpenAI API testing with generate_until
+  version: 1.0
+metric_list:
+- aggregation: mean
+  higher_is_better: true
+  metric: exact_match
+output_type: generate_until
+task: mmlu_openai_test
+test_split: test

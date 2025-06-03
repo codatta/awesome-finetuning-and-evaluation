@@ -1,0 +1,202 @@
+{
+  "results": {
+    "my_mmlu_gen": {
+      "alias": "my_mmlu_gen",
+      "exact_match,none": 0.0,
+      "exact_match_stderr,none": 0.0
+    }
+  },
+  "group_subtasks": {
+    "my_mmlu_gen": []
+  },
+  "configs": {
+    "my_mmlu_gen": {
+      "task": "my_mmlu_gen",
+      "dataset_path": "cais/mmlu",
+      "dataset_name": "abstract_algebra",
+      "test_split": "test",
+      "doc_to_text": "Q: {{question}}\nOptions:\n(A) {{choices[0]}}\n(B) {{choices[1]}}\n(C) {{choices[2]}}\n(D) {{choices[3]}}\nA:",
+      "doc_to_target": "{{ ['A', 'B', 'C', 'D'][answer] }}",
+      "unsafe_code": false,
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n",
+          "<|im_end|>"
+        ],
+        "max_gen_toks": 5
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "description": "Custom MMLU generation task for abstract algebra"
+      }
+    }
+  },
+  "versions": {
+    "my_mmlu_gen": 1.0
+  },
+  "n-shot": {
+    "my_mmlu_gen": 0
+  },
+  "higher_is_better": {
+    "my_mmlu_gen": {
+      "exact_match": true
+    }
+  },
+  "n-samples": {
+    "my_mmlu_gen": {
+      "original": 100,
+      "effective": 3
+    }
+  },
+  "samples": {
+    "my_mmlu_gen": [
+      {
+        "doc_id": 0,
+        "doc": {
+          "question": "Find the degree for the given field extension Q(sqrt(2), sqrt(3), sqrt(18)) over Q.",
+          "subject": "abstract_algebra",
+          "choices": [
+            "0",
+            "4",
+            "2",
+            "6"
+          ],
+          "answer": 1
+        },
+        "target": "B",
+        "arguments": [
+          [
+            "Q: Find the degree for the given field extension Q(sqrt(2), sqrt(3), sqrt(18)) over Q.\nOptions:\n(A) 0\n(B) 4\n(C) 2\n(D) 6\nA:",
+            {
+              "until": [
+                "\n",
+                "<|im_end|>"
+              ],
+              "max_gen_toks": 5
+            }
+          ]
+        ],
+        "resps": [
+          [
+            " Find the degree for the"
+          ]
+        ],
+        "filtered_resps": [
+          " Find the degree for the"
+        ],
+        "filter": "none",
+        "metrics": [
+          "exact_match"
+        ],
+        "doc_hash": "6cd9c6502447a6f35e13e2e94ad6a1ba2ac5672b02acd62d3f1ad2829be63827",
+        "prompt_hash": "3ab96e851d8dda004e3db6a26682b1fcf064bc4718c5a5c4fb4139feccc1e5e2",
+        "target_hash": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c",
+        "exact_match": 0.0
+      },
+      {
+        "doc_id": 1,
+        "doc": {
+          "question": "Let p = (1, 2, 5, 4)(2, 3) in S_5 . Find the index of <p> in S_5.",
+          "subject": "abstract_algebra",
+          "choices": [
+            "8",
+            "2",
+            "24",
+            "120"
+          ],
+          "answer": 2
+        },
+        "target": "C",
+        "arguments": [
+          [
+            "Q: Let p = (1, 2, 5, 4)(2, 3) in S_5 . Find the index of <p> in S_5.\nOptions:\n(A) 8\n(B) 2\n(C) 24\n(D) 120\nA:",
+            {
+              "until": [
+                "\n",
+                "<|im_end|>"
+              ],
+              "max_gen_toks": 5
+            }
+          ]
+        ],
+        "resps": [
+          [
+            " (1, 2,"
+          ]
+        ],
+        "filtered_resps": [
+          " (1, 2,"
+        ],
+        "filter": "none",
+        "metrics": [
+          "exact_match"
+        ],
+        "doc_hash": "40bb7923cd6211453bfd4b386132b066b28be621a8d0ccd35a23a38568c09c7d",
+        "prompt_hash": "ebcca3bf3facbd0f739bc0379024dfaa9e8c9dd56efc5066920b2b14673f697f",
+        "target_hash": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d",
+        "exact_match": 0.0
+      },
+      {
+        "doc_id": 2,
+        "doc": {
+          "question": "Find all zeros in the indicated finite field of the given polynomial with coefficients in that field. x^5 + 3x^3 + x^2 + 2x in Z_5",
+          "subject": "abstract_algebra",
+          "choices": [
+            "0",
+            "1",
+            "0,1",
+            "0,4"
+          ],
+          "answer": 3
+        },
+        "target": "D",
+        "arguments": [
+          [
+            "Q: Find all zeros in the indicated finite field of the given polynomial with coefficients in that field. x^5 + 3x^3 + x^2 + 2x in Z_5\nOptions:\n(A) 0\n(B) 1\n(C) 0,1\n(D) 0,4\nA:",
+            {
+              "until": [
+                "\n",
+                "<|im_end|>"
+              ],
+              "max_gen_toks": 5
+            }
+          ]
+        ],
+        "resps": [
+          [
+            " Find all zeros in"
+          ]
+        ],
+        "filtered_resps": [
+          " Find all zeros in"
+        ],
+        "filter": "none",
+        "metrics": [
+          "exact_match"
+        ],
+        "doc_hash": "155ab0f225cc66dcbd21b4e77bc03712f985f9cedb23dd02bf92c6f7fc4c1a85",
+        "prompt_hash": "d6f540add1f4d3a9597b6ae955bba88b1eb39f5ff4fb6a75280e1935f4412d72",
+        "target_hash": "3f39d5c348e5b79d06e842c114e6cc571583bbf44e4b0ebfda1a01ec05745d43",
+        "exact_match": 0.0
+      }
+    ]
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=gpt2,device=cpu",
+    "model_num_parameters": 124439808,
+    "model_dtype": 
