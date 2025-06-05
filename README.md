@@ -49,6 +49,10 @@ Have a paper, tutorial, or project on fine‑tuning or evaluation? Add its file 
 | *ChatEval demo* | [Jupyter.ipynb](notebooks/evaluation/01_evidently_llm_eval.ipynb) | Build an interactive eval dashboard in 5 mins |
 | *A Survey on Evaluation of Large Language Models* | [Paper/PDF](resources/papers/A_Survey_on_Evaluation_of_LLMs.pdf) | A comprehensive survey on LLM evaluation and pipelines |
 | *Finance‑QA benchmark* | [Dataset](https://huggingface.co/datasets/AIR-Bench/qa_finance_en) | 27.9K Q&A pairs for financial reasoning tests |
+| *Building Trustworthy Generative AI: Evaluation Methods, Challenges, and Optimization Pathways* | [Survey/PDF](resources/tutorials/BTGAECOP.pdf) | Survey written by xny.ai |
+| *OpenAI Evals* |  [Github/Tools](https://github.com/openai/simple-evals) |  Open-sourced by OpenAI|
+|*EleutherAI LM Evaluation Harness* | [Github/Framework](https://github.com/EleutherAI/lm-evaluation-harness) |The most famous eval framework, integrated with MMLU, MATH etc.|
+
 
 ---
 
